@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    min-height: 100vh;
+    background: linear-gradient(to right top,#65dfc9,#6cdbeb);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.glass{
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    min-height: 40vh;
+    width: 50%;
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+}
+.circle1,.circle2{
+    background: white;
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.8),rgba(255,255,255,0.4));
+    height: 15rem;
+    width: 15rem;
+    position: absolute;
+    border-radius: 50%;
+}
+.circle1{
+    top:5%;
+    right: 15%;
+}
+.circle2{
+    bottom: 5%;
+    left:10%;
+}
+.image{
+    width: 150px;
+    height: 150px;
+}.image-sm{
+    width: 40px;
+    height: 30px;
+}
+.dashboard img{
+    width: 71vh;
+    object-fit: cover;
+    border-radius:2rem;
+}
+.dashboard{
+    flex: 1;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: stretch; */
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.7),rgba(255,255,255,0.3)); 
+    border-radius: 2rem;
+}
+.surguries{
+    flex: 1;
+} 
+/* .links{
+    display:flex;
+    margin: 2rem 0rem;
+    padding: 1rem 3rem;
+    align-items: center;
+    flex-direction: column;
+} */
+.links h3{
+    padding: 0rem 2rem;
+}
+/* .user{
+    margin: 23px;
+    cursor: pointer;
+} */
+h2{
+    font-weight: 500;
+    text-align: center;
+    /* margin:23px 34px;
+    padding: 10px 12px; */
+    color:darkcyan;
+}
+h4{ 
+    margin: 2rem;
+    text-align: center;
+    font-weight: 400;
+    opacity: 0.8;
+}
+/* p{
+    font-weight: 400;
+    opacity: 0.8;
+} */
+/* .status{
+    margin: 2rem;
+} */
+.surguries{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem ;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to left top,rgba(255,255,255,1),rgba(255,255,255,0.8));
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 2rem;
+}
+.icon-fix{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-fix img{
+    width: 20px;
+    height: 20px;
+    margin: 12px 12px;
+}
+hr{
+    height: 2rem;
+    width:auto;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    background: teal;
+    color: #fcfcfc;
+}
